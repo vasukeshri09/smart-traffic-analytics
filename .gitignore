@@ -1,0 +1,105 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Environment variables / secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDE and editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Operating system
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+logs/
+*.tmp
+*.temp
+
+# ==============================
+# Generated datasets
+# Keep folder structure, ignore generated files
+# ==============================
+data/raw/*
+data/bronze/*
+data/silver/*
+data/gold/*
+data/stream_in/*
+
+# Preserve directory placeholders
+!data/raw/.gitkeep
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+!data/stream_in/.gitkeep
+
+# ==============================
+# Trained models
+# ==============================
+models/*.joblib
+models/*.pkl
+models/*.pt
+models/*.pth
+models/*.bin
+models/*.safetensors
+
+# ==============================
+# Generated reports and outputs
+# ==============================
+reports/*.csv
+reports/*.json
+reports/*.png
+reports/*.jpg
+reports/*.pdf
+reports/*.html
+
+# ==============================
+# Kafka / runtime data
+# ==============================
+kafka-logs/
+*.pid
